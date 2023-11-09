@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ModiDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/birumuda</item>
+        <item name="colorPrimaryVariant">@color/birutua</item>
+        <item name="colorOnPrimary">@color/abutua</item>
+        <item name="android:statusBarColor">@color/birutua</item>
+
+
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+    </style>
+
+    <style name="Theme.ModiDemo" parent="Base.Theme.ModiDemo" />
+
+    <style name="Base.App.Theme.ModiDemo" parent="Theme.Material3.DayNight">
+
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSurface">@color/baseNav</item>
+        <item name="colorOnSurfaceVariant">@color/selectedNav</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TopAppBarMenu" parent="ThemeOverlay.AppCompat.Light">
+    </style>
+
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/abutua</item>
+    </style>
+
+</resources>

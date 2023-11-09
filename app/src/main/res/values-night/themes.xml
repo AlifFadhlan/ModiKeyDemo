@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ModiDemo" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/birumuda</item>
+        <item name="colorPrimaryVariant">@color/birutua</item>
+        <item name="colorOnPrimary">@color/abutua</item>
+        <item name="android:statusBarColor">@color/birutua</item>
+    </style>
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSurface">@color/selectedNav</item>
+        <item name="colorOnSurfaceVariant">@color/baseNav</item>
+
+    </style>
+
+    <style name="ThemeOverlay.App.TopAppBarMenu" parent="ThemeOverlay.AppCompat.Dark">
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/abutua</item>
+    </style>
+</resources>

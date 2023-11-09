@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ModiDemo</string>
+    <string name="home">Beranda</string>
+    <string name="timeline">Linimasa</string>
+    <string name="account">Akun</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informasi">Informasi</string>
+</resources>

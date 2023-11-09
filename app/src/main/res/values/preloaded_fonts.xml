@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allan_bold</item>
+        <item>@font/audiowide</item>
+        <item>@font/happy_monkey</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

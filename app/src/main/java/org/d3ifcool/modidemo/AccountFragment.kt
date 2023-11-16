@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.google.android.material.appbar.MaterialToolbar
 import org.d3ifcool.modidemo.databinding.FragmentAccountBinding
+import org.d3ifcool.modidemo.informasi.ListInformasi
 
 class AccountFragment : Fragment() {
 

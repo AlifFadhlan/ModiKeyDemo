@@ -23,7 +23,6 @@
 
         >
 
-
         <ImageView
             android:id="@+id/gambar_informasi"
             android:layout_width="60dp"
@@ -49,7 +48,7 @@
 
         <TextView
             android:id="@+id/deskripsi_informasi"
-            android:layout_width="250dp"
+            android:layout_width="0dp"
             android:layout_height="20dp"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             android:textSize="12sp"
@@ -58,19 +57,9 @@
             android:textAlignment="viewStart"
             app:layout_constraintStart_toEndOf="@+id/gambar_informasi"
             app:layout_constraintTop_toBottomOf="@+id/item_informasi"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
-        <ImageView
-            android:id="@+id/expandIcon"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_gravity="end"
-            android:foregroundGravity="right"
-            android:padding="8dp"
-            android:src="@drawable/baseline_expand_more_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

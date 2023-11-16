@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import org.d3ifcool.modidemo.databinding.ActivityMainBinding
+import org.d3ifcool.modidemo.informasi.ListInformasi
 
 
 class MainActivity : AppCompatActivity() {

@@ -15,13 +15,15 @@
         android:theme="@style/Theme.ModiDemo"
         tools:targetApi="31">
         <activity
-            android:name=".informasi.ListInformasi"
-            android:label="@string/informasi"
+            android:name=".ListTutorial"
             android:exported="false" />
         <activity
+            android:name=".informasi.ListInformasi"
+            android:exported="false"
+            android:label="@string/informasi" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"
-            >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

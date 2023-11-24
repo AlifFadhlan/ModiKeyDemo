@@ -10,7 +10,7 @@ import retrofit2.http.GET
 
 object InformasiApi {
 
-    private const val BASE_URL = "https://raw.githubusercontent.com/"+"AlifFadhlan/asesmen1mobpro/static-api/"
+    private const val BASE_URL = "https://raw.githubusercontent.com/AlifFadhlan/ModiKeyDemo/static-api/"
 
     private val moshi = Moshi.Builder()
         .add(KotlinJsonAdapterFactory())

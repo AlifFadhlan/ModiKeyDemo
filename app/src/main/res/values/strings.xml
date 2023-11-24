@@ -11,4 +11,8 @@
     <string name="next_page">Selanjutnya</string>
     <string name="prev_page">Sebelumnya</string>
     <string name="tutorial">Tutorial</string>
+    <string name="tambah_konten">Posting</string>
+    <string name="judul">Judul</string>
+    <string name="text2">Teks Deskripsi</string>
+    <string name="koneksi_error">Koneksi Error</string>
 </resources>

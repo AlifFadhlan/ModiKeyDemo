@@ -1,0 +1,9 @@
+[
+    {"nama": "Keycaps", "deskripsi": "Sebuah keycap adalah penutup kecil yang terbuat dari plastik, logam, atau bahan lainnya yang ditempatkan di atas keyswitch dari keyboard komputer. (Wikipedia)", "imageId": "fotoinfo/keycap"},
+    {"nama": "Keyswitches", "deskripsi": "Ini dia yang membuat keyboard mechanical menjadi khas yaitu keyswitchnya, pada umumnya keyboard hanya menggunakan karet atau biasa kita sebut rubber dome namun untuk keyboard mechanical menggunakan keyswitch ini untuk setiap huruf. Dalam mechanical keyboard sangat banyak sekali variasi switch yang mungkin tidak bisa kita hitung lewat tangan dan setiap switch mempunyai karakter yang berbeda-beda dan di kategorikan berdasarkan warnanya.", "imageId": "fotoinfo/switches"},
+    {"nama": "Stabilizer", "deskripsi": "Setelah itu ada yang namanya Stabilizer, fungsi dari stabilizer ini adalah sebagai penyanggah Spacebar, Shift, Backspace, Enter dan berberapa key lain yang ukurannya berbeda dengan huruf agar tidak Rattle atau bergoyang ketika digunakan, Stablizer sendiri ada berbagai merek dan tentunya punya kualitas yang berbeda-beda.", "imageId": "fotoinfo/stabilizer"},
+    {"nama": "Plate", "deskripsi": "Plate berfungsi sebagai tempat menaruh keyswitch dan meluruskan keyswitch yang sudah terpasang pada PCB.", "imageId": "fotoinfo/plate"},
+    {"nama": "PCB", "deskripsi": "PCB merupakan suatu komponen yang memiliki fungsi seperti motherboard pada PC, dan tempat menaruh switch dan menghubungkan ke komponen lainnya.", "imageId": "fotoinfo/pcb"},
+    {"nama": "Case", "deskripsi": "Untuk case terbagi kedalam beberapa jenis bahan seperti akrilik, plastik, alumunium, dan resin. ", "imageId": "fotoinfo/case"},
+    {"nama": "Mounting Type", "deskripsi": "Mounting Type atau Mounting Style merupakan cara-cara untuk memasang seluruh komponen mekanikal keyboard", "imageId": "fotoinfo/mounting"}
+]

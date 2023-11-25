@@ -1,4 +1,4 @@
-package org.d3ifcool.modidemo.informasi
+package org.d3ifcool.modidemo.tutorial
 
 import android.util.Log
 import androidx.lifecycle.LiveData
@@ -9,8 +9,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class InformasiViewModel : ViewModel() {
-    private val data = MutableLiveData<List<InfoModel>>()
+class TutorViewModel : ViewModel() {
+    private val data = MutableLiveData<List<TutorModel>>()
 
     init {
         viewModelScope.launch {
@@ -23,7 +23,7 @@ class InformasiViewModel : ViewModel() {
     private suspend fun requestData() {
         viewModelScope.launch (Dispatchers.IO ){
             try {
-                data.postValue(InformasiApi.service.getInformasi())
+                data.postValue(TutorApi.service.getTutor())
             }
             catch (e: Exception) {
                 Log.d("REQUEST", e.message.toString())
@@ -31,5 +31,5 @@ class InformasiViewModel : ViewModel() {
         }
     }
 
-    fun getData(): LiveData<List<InfoModel>> = data
+    fun getData(): LiveData<List<TutorModel>> = data
 }

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import org.d3ifcool.modidemo.tutorial.ListTutorial
 import org.d3ifcool.modidemo.databinding.ActivityMainBinding
 import org.d3ifcool.modidemo.informasi.ListInformasi
 
@@ -55,6 +56,11 @@ class MainActivity : AppCompatActivity() {
         when(view.id) {
             R.id.card -> {
                 val intent = Intent(this, ListInformasi::class.java)
+                startActivity(intent)
+            }
+
+            R.id.card2 -> {
+                val intent = Intent(this, ListTutorial::class.java)
                 startActivity(intent)
             }
         }

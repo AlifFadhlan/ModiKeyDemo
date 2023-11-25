@@ -14,6 +14,8 @@
     android:layout_marginRight="8dp"
     app:cardUseCompatPadding="true"
     app:cardPreventCornerOverlap="false"
+    android:clickable="true"
+    android:focusable="true"
     style="?attr/materialCardViewElevatedStyle"
     >
 

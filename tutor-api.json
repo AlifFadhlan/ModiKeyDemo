@@ -1,5 +1,5 @@
 [
-    {"namaT": "Keyswitch Lube", "imageIdT": "fototutor/lubeswitch", "linkYt": "<iframe width="560" height="315" src="https://www.youtube.com/embed/88tnUYbxaIs?si=MCz-I9aXqYr8p0ES" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"},
-	{"namaT": "Holee Mod", "imageIdT": "fototutor/holeemod",  "linkYt": "<iframe width="560" height="315" src="https://www.youtube.com/embed/-vhpHjlkRgQ?si=jbLitdkZRxKtzAez" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"},
-	{"namaT": "Bag lube springs", "imageIdT": "fototutor/baglube",  "linkYt":"<iframe width="560" height="315" src="https://www.youtube.com/embed/lkMxroMs32Y?si=k6TkIodxl3M65sJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>"}
+    {"namaT": "Keyswitch Lube", "imageIdT": "fototutor/lubeswitch"},
+	{"namaT": "Holee Mod", "imageIdT": "fototutor/holeemod"},
+	{"namaT": "Bag lube springs", "imageIdT": "fototutor/baglube"}
 ]

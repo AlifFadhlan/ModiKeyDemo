@@ -1,5 +1,12 @@
 [
-    {"namaT": "Keyswitch Lube", "imageIdT": "fototutor/lubeswitch"},
-	{"namaT": "Holee Mod", "imageIdT": "fototutor/holeemod"},
-	{"namaT": "Bag lube springs", "imageIdT": "fototutor/baglube"}
+    {"namaT": "Keyswitch Lube", "imageIdT": "fototutor/lubeswitch", 
+	"penjelasan":
+	"Cara untuk lube keyswitch sebagai berikut\n1. Buka keyswitch dengan switch opener\n2.Lube bagian bottom housing dengan Krytox 205G0",
+	"linkEmb":"https://www.youtube.com/embed/vkpg_Hozub8?si=-tl6mjC416moDELH&amp;start=684"},
+	{"namaT": "Holee Mod", "imageIdT": "fototutor/holeemod",
+	"penjelasan":"Halo test",
+	"linkEmb":"https://www.youtube.com/embed/vkpg_Hozub8?si=h1RBhRVfZmAVPlCR"},},
+	{"namaT": "Bag lube springs", "imageIdT": "fototutor/baglube", 
+	"penjelasan":"test lagi",
+	"linkEmb":"https://www.youtube.com/embed/vkpg_Hozub8?si=h1RBhRVfZmAVPlCR"},}
 ]
